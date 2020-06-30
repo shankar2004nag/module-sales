@@ -3,7 +3,7 @@
     "description": "Sales Grid Customization",
     "require": {
         "php": "7.0.2|7.0.4|~7.0.6|^7.1.0",
-        "magento/module-sales": "102.0.*",
+        "magento/module-sales": "102.0.*"
     },
     "type": "magento2-module",
     "version": "0.0.2",
