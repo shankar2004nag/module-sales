@@ -5,9 +5,9 @@
 ## Main Functionalities
 Sales order grid
 
-1> Remove Signifyd Guarantee Status from Admin->Sales (Menu Item) -> Order grid
-2> Added Column Products which is combintation of "sales_order_item.sku / sales_order_item.name" it can be searched in filter as per sku or name
-3> Optimize query for Sales Order Grid
+1> Remove Signifyd Guarantee Status from Admin->Sales (Menu Item) -> Order grid<br>
+2> Added Column Products which is combintation of "sales_order_item.sku / sales_order_item.name" it can be searched in filter as per sku or name<br>
+3> Optimize query for Sales Order Grid<br>
 
 ## Installation
 \* = in production please use the `--keep-generated` option
