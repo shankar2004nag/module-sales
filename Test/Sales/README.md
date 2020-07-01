@@ -9,6 +9,7 @@ Sales order grid
 - Added Column Products which is combintation of "sales_order_item.sku / sales_order_item.name" it can be searched in filter as per sku or name<br>
 - Optimize query for Sales Order Grid<br>
 - Steps to improve server performance 
+- Yet to upload the files in packagelist so as to pull it from composer 
 
 ## Installation
 \* = in production please use the `--keep-generated` option
