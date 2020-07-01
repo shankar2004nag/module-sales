@@ -1,4 +1,4 @@
-# Module Test Sales
+﻿# Module Test Sales
 
     ``test/module-sales``
 
@@ -8,6 +8,8 @@ Sales order grid
 - Remove Signifyd Guarantee Status from Admin->Sales (Menu Item) -> Order grid<br>
 - Added Column Products which is combintation of "sales_order_item.sku / sales_order_item.name" it can be searched in filter as per sku or name<br>
 - Optimize query for Sales Order Grid<br>
+- Steps to improve server performance 
+- Yet to upload the files in packagelist so as to pull it from composer 
 
 ## Installation
 \* = in production please use the `--keep-generated` option
@@ -29,7 +31,7 @@ Sales order grid
  - enable the module by running `php bin/magento module:enable Test_Sales`
  - apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
-
+ 
 ### In my opnion 
 - Details of sorting fields,limits can be set via url if required it could be encrypted and later on provided to the query.
 - If we are not going to upgrade DB server to Amazon Aurora we can even try for Split database. 
@@ -50,7 +52,3 @@ Sales order grid
 
 ### Why Amazon Aurora
   Aurora automatically increases the number of replicas when demand increases during traffic jumps, or on schedule to maintain performance and availability, and decreases capacity during off hours to reduce costs. 
-
-
-
-
